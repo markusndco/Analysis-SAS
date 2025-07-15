@@ -1,6 +1,6 @@
 # SAS Projects Repository
 
-This repository features a collection of academic data analysis projects conducted using the **SAS programming language**. Each project demonstrates a specific application of statistical methods, exploratory analysis, and regression modeling on diverse datasets such as healthcare records, sports data, and operational HR metrics.
+This repository features a collection of data analysis projects conducted using the **SAS programming language**. Each project demonstrates a specific application of statistical methods, exploratory analysis, and regression modeling on diverse datasets such as healthcare records, sports data, and operational HR metrics.
 
 These projects were part of structured assignments designed to build proficiency in SAS syntax, data management, and statistical interpretation using real-world datasets from SASHELP and external inputs.
 
