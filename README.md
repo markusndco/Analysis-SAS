@@ -1,63 +1,71 @@
-# SAS Projects Repository 
+# 📊 SAS Data Analysis & Modeling Projects
 
-This repository features a collection of data analysis projects conducted using the **SAS programming language**. Each project demonstrates a specific application of statistical methods, exploratory analysis, and regression modeling on diverse datasets such as healthcare records, sports data, and operational HR metrics.
-
-These projects were part of structured assignments designed to build proficiency in SAS syntax, data management, and statistical interpretation using real-world datasets from SASHELP and external inputs.
+This repository contains a collection of **end-to-end SAS analytics projects** showcasing skills in data preparation, visualization, statistical analysis, and predictive modeling.  
+Each project applies SAS programming to real-world-style datasets from `SASHELP` and external sources, covering topics from operational HR analytics to sports statistics, retail data, and nutritional analysis.
 
 ---
 
-## 📁 Projects Included
+## 📁 Projects Overview
+
+### 🔹 End-to-End Data Analytics Project
+- Multi-dataset analysis demonstrating SAS statistical capabilities
+- Cholesterol-by-gender visualization using vertical bar charts
+- BMI computation and distribution analysis
+- Correlation analysis for sports performance metrics
+- Simple and multiple regression modeling with diagnostics
+- Multicollinearity detection and backward elimination for model refinement
 
 ### 🔹 Firefighter Overtime Pay Analysis
-- Created categorical variables based on overtime thresholds
-- Conducted binomial tests to evaluate proportion differences
+- Created categorical OT pay variables
+- Conducted binomial proportion tests
 - Performed Chi-square tests for independence
-- Used one-way ANOVA with Tukey’s post hoc analysis to examine OT pay by rank
+- Used one-way ANOVA with Tukey’s post-hoc comparisons
 
 ### 🔹 Baseball Player Salary Modeling (SASHELP.Baseball)
-- Built simple and multiple linear regression models to predict player salaries
-- Applied model diagnostics including residual analysis and VIF
-- Used stepwise regression to select optimal predictor subsets
-
-### 🔹 Health and Demographics (SASHELP.HEART & BMIMEN)
-- Computed average cholesterol by gender and visualized bar plots
-- Estimated linear regression between BMI and age
-- Interpreted R², coefficients, and variance patterns
+- Built simple and multiple regression models for salary prediction
+- Evaluated diagnostics (residuals, VIF)
+- Applied stepwise regression for optimal predictor selection
 
 ### 🔹 Car Price Prediction (SASHELP.CARS)
-- Developed a multivariate linear regression model for MSRP
-- Assessed multicollinearity and applied backward elimination
-- Explained model strength and limitations using statistical diagnostics
+- Developed multiple regression models for MSRP
+- Identified and addressed multicollinearity
+- Applied backward elimination to improve model stability
 
-### 🔹 BMI Calculation and Visualization (SAS.CLASS)
-- Calculated BMI using formula-based data transformation
-- Identified BMI distributions across students
+### 🔹 SASHELP.Shoes Sales Visualization
+- Created product sales bar charts and sales distribution boxplots
+- Designed 3D pie charts for inventory composition
+- Enhanced graphical output with sorting, color customization, and labels
+
+### 🔹 PCA Analysis – Pizza Nutritional Data
+- Performed multicollinearity checks
+- Applied Principal Components Analysis (PCA)
+- Compared full vs reduced models for efficiency and interpretability
 
 ---
 
 ## 🧠 Key Skills Demonstrated
-- Data manipulation using `DATA` and `SET` statements
-- Statistical testing: ANOVA, Chi-square, Binomial tests
-- Regression modeling: simple, multiple, and stepwise
-- Diagnostic interpretation: R², p-values, VIF, residual plots
-- SAS procedures: `PROC REG`, `PROC FREQ`, `PROC ANOVA`, `PROC SGPLOT`, `PROC CORR`
+- **Data Preparation**: `DATA` step transformations, recoding variables
+- **Statistical Testing**: ANOVA, Chi-square, Binomial tests
+- **Regression Modeling**: simple, multiple, and stepwise regression
+- **Dimensionality Reduction**: PCA for multicollinearity mitigation
+- **Visualization**: `PROC SGPLOT`, `PROC GCHART`, `PROC BOXPLOT`
+- **Diagnostics & Model Selection**: R², p-values, VIF, residual plots
 
 ---
 
-## ⚙️ Tools Used
-- SAS 9.4 / SAS Studio
+## ⚙️ Tools & Resources
+- **SAS 9.4 / SAS Studio**
 - Built-in datasets from the `SASHELP` library
-- Custom scripts and structured assignment templates
+- Custom-created datasets for applied problem solving
 
 ---
 
 ## 👤 Author
-
 **Aryan Sharma**  
-Data Analytics Enthusiast | SAS Programmer
+Data Analytics | SAS Programming | Predictive Modeling
 
 ---
 
-## 📘 License
-
-This repository is intended for educational use and portfolio presentation. Attribution appreciated if referenced.
+## 📜 License
+This repository is intended for educational and portfolio purposes.  
+If you use or adapt this work, **please give proper credit**.
